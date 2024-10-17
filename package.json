@@ -16,7 +16,10 @@
     "lint:scss": "npx stylelint \"src/**/*.scss\"",
     "lint:scss:fix": "npx stylelint \"src/**/*.scss\" --fix",
     "storybook": "storybook dev -p 6006 -c ./config/storybook",
-    "build-storybook": "storybook build -c ./config/storybook"
+    "build-storybook": "storybook build -c ./config/storybook",
+    "test:ui:report": "npm run test:ui:json && npm run test:ui:html",
+    "test:ui:json": "node scripts/generate-visual-json-report.js",
+    "test:ui:html": "reg-cli --from .loki/report.json --report .loki/report.html"
   },
   "keywords": [],
   "author": "",
@@ -69,6 +72,7 @@
     "jest": "^27.5.1",
     "loki": "^0.35.1",
     "mini-css-extract-plugin": "^2.9.1",
+    "reg-cli": "^0.18.8",
     "regenerator-runtime": "^0.13.9",
     "sass": "^1.79.4",
     "sass-loader": "^16.0.2",
