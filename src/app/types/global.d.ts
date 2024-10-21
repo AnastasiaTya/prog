@@ -13,7 +13,7 @@ declare module '*.module.css' {
     export = classes;
 }
 
-declare module 'app/styles/index.scss'
+// declare module 'app/styles/index.scss'
 
 declare module '*.png'
 declare module '*.jpg'
