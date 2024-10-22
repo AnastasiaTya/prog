@@ -2,6 +2,7 @@
   "Введите имя": "Enter the username",
   "Введите пароль": "Enter the password",
   "Войти": "Login",
+  "Вы ввели неверный логин или пароль": "You entered an incorrect username or password",
   "Главная": "Home",
   "Главная страница": "Main page",
   "О сайте": "About us",
@@ -9,5 +10,6 @@
   "Пробросить ошибку": "Throw error",
   "Произошла непредвиденная ошибка": "An unexpected error has occurred",
   "Страница не найдена": "Page not found",
+  "Форма авторизации": "Authorization form",
   "Язык": "EN"
 }

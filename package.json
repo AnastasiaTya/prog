@@ -69,6 +69,7 @@
     "file-loader": "^6.2.0",
     "globals": "^15.10.0",
     "html-webpack-plugin": "5.5.0",
+    "husky": "^7.0.0",
     "i18next-parser": "^9.0.2",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
@@ -94,6 +95,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.3.0",
+    "axios": "^0.26.1",
     "i18next": "^23.15.1",
     "i18next-browser-languagedetector": "^8.0.0",
     "i18next-http-backend": "^2.6.2",

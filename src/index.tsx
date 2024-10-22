@@ -17,7 +17,5 @@ createRoot(document.getElementById('root')).render(
                 </ThemeProvider>
             </ErrorBoundary>
         </BrowserRouter>
-        ,
     </StoreProvider>,
-
 );
