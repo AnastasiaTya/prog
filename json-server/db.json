@@ -17,6 +17,13 @@
       }
     ],
     "profile": {
-      "name": "typicode"
+      "first": "Настя",
+      "lastname": "Затямина",
+      "age": 22,
+      "currency": "Руб",
+      "country": "Россия",
+      "city": "Санкт-Петербург",
+      "username": "admin",
+      "avatar": "https://sun9-69.userapi.com/impg/wGicTyxLqGJvxv3ULrqol7HY1IcVBxZsi5rnhA/M02d0vDYw3o.jpg?size=1620x2160&quality=95&sign=12840a61fbed7667000b21a2f3bf8109&type=album"
     }
 }
