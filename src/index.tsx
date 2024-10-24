@@ -9,13 +9,13 @@ import ThemeProvider from './app/providers/ThemeProvider/ui/ThemeProvider';
 import 'shared/config/i18n/i18n';
 
 createRoot(document.getElementById('root')).render(
-    <StoreProvider>
-        <BrowserRouter>
+    <BrowserRouter>
+        <StoreProvider>
             <ErrorBoundary>
                 <ThemeProvider>
                     <App />
                 </ThemeProvider>
             </ErrorBoundary>
-        </BrowserRouter>
-    </StoreProvider>,
+        </StoreProvider>
+    </BrowserRouter>,
 );
