@@ -1,11 +1,11 @@
 {
+  "Profile Page": "Profile Page",
   "Введите имя": "Enter the username",
   "Введите пароль": "Enter the password",
   "Войти": "Login",
   "Вы ввели неверный логин или пароль": "You entered an incorrect username or password",
-  "Главная": "Home",
+  "Выйти": "Выйти",
   "Главная страница": "Main page",
-  "О сайте": "About us",
   "Обновить страницу": "Refresh the page",
   "Пробросить ошибку": "Throw error",
   "Произошла непредвиденная ошибка": "An unexpected error has occurred",

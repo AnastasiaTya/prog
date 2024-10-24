@@ -32,3 +32,8 @@ export interface ThunkExtraApg {
     api: AxiosInstance
     navigate: (to: To, options?: NavigateOptions) => void
 }
+
+export interface ThunkConfig<T> {
+    rejectValue: T
+    extra: ThunkExtraApg
+}
