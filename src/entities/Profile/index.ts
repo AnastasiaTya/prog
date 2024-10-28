@@ -1,4 +1,4 @@
-export { Profile, ProfileSchema } from './modal/types/profile';
+export { Profile, ProfileSchema, ValidateProfileError } from './modal/types/profile';
 export { profileReducer, profileActions } from './modal/slice/profileSlice';
 export { fetchProfileData } from './modal/services/fetchProfileData/fetchProfileData';
 export { updateProfileData } from './modal/services/updateProfileData/updateProfileData';
@@ -8,3 +8,4 @@ export { getProfileIsLoading } from './modal/selectors/getProfileIsLoading/getPr
 export { getProfileError } from './modal/selectors/getProfileError/getProfileError';
 export { getProfileReadonly } from './modal/selectors/getProfileReadonly/getProfileReadonly';
 export { getProfileForm } from './modal/selectors/getProfileForm/getProfileForm';
+export { getProfileValidateError } from './modal/selectors/getProfileValidateError/getProfileValidateError';
