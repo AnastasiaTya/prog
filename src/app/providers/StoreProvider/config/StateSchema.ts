@@ -9,7 +9,7 @@ import { LoginSchema } from 'features/AuthByUsername';
 import { NavigateOptions, To } from 'react-router-dom';
 
 export interface StateSchema {
-    counter?: CounterSchema
+    counter: CounterSchema
     user: UserSchema
     loginForm?: LoginSchema
     profile?: ProfileSchema
