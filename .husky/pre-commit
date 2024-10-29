@@ -1,6 +1,6 @@
-# npm run build:prod
-# npm run lint
-# npm run lint:scss
-# npm run unit
-# npm run build-storybook
-# npm run test:ui:ci
+npm run build:prod
+npm run lint
+npm run lint:scss
+npm run unit
+npm run build-storybook
+npm run test:ui:ci
