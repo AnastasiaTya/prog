@@ -3,7 +3,7 @@
   "Введите пароль": "Enter the password",
   "Войти": "Login",
   "Вы ввели неверный логин или пароль": "You entered an incorrect username or password",
-  "Выйти": "Exit",
+  "Выйти": "Logout",
   "Главная страница": "Main page",
   "Обновить страницу": "Refresh the page",
   "Пробросить ошибку": "Throw error",
@@ -12,5 +12,9 @@
   "Укажите валюту": "Specify the currency",
   "Укажите страну": "Specify the country",
   "Форма авторизации": "Authorization form",
-  "Язык": "EN"
+  "Язык": "EN",
+  "Главная": "Main page",
+  "О сайте": "About page",
+  "Профиль": "Profile",
+  "Статьи": "Articles"
 }

@@ -32,6 +32,5 @@ export const SidebarItem = memo(({ item, collapsed }: SidebarItemProps) => {
                 {t(item.text)}
             </span>
         </AppLink>
-
     );
 });
